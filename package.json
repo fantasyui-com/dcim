@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "bin": {
+    "dcim": "cli.mjs"
+  },
+  "scripts": {
+    "test": "./test.mjs"
+  },
+  "keywords": [
+    "DCIM"
+  ],
+  "author": "https://github.com/fantasyui-com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "exif": "^0.6.0",
+    "fs-extra": "^9.0.0",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
+    "natural-sort-by-key": "^2.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/dcim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/dcim/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/dcim#readme",
+  "name": "dcim",
+  "description": "Cleanup Images found in old DCIM directories (Exif based)."
+}
