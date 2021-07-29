@@ -5,12 +5,13 @@
     "dcim": "cli.mjs"
   },
   "scripts": {
-    "test": "./test.mjs"
+    "test": "./test.mjs",
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;"
   },
   "keywords": [
     "DCIM"
   ],
-  "author": "https://github.com/fantasyui-com",
+  "author": "fantasyui.com <fantasyui.com@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "commander": "^5.1.0",
